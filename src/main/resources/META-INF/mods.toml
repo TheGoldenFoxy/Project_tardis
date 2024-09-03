@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="Project TARDIS 2.0"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="Damie, MCreator"
+authors="Taygamerlol, Evilguardian667"
 
 [[dependencies.project_tardis]]
     modId="minecraft"
