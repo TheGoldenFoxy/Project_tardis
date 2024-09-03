@@ -3,18 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "devitem",
+    "texture": "minecraft:leather_chestplate_overlay",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Steelingot",
-    "rarity": "COMMON",
-    "creativeTabs": [
-      {
-        "value": "MISC"
-      }
-    ],
-    "stackSize": 64,
+    "name": "Sun Core",
+    "rarity": "RARE",
+    "creativeTabs": [],
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -31,12 +27,21 @@
     "specialInformation": {
       "fixedValue": []
     },
+    "glowCondition": {
+      "fixedValue": false
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onItemInInventoryTick": {
+      "name": "SunCoreItemInInventoryTick"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "Arrow"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

@@ -3,114 +3,215 @@
     {
       "name": "Tungstenore",
       "type": "block",
-      "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tungstenore"
+      "registry_name": "tungstenore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_tardis/blockstates/tungstenore.json",
+          "src/main/resources/assets/project_tardis/models/item/tungstenore.json",
+          "src/main/java/net/projecttardis/block/TungstenoreBlock.java",
+          "src/main/resources/data/project_tardis/loot_tables/blocks/tungstenore.json",
+          "src/main/resources/assets/project_tardis/models/block/tungstenore.json"
+        ]
+      },
+      "path": "~/Items"
     },
     {
       "name": "TungstenIngot",
       "type": "item",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tungsten_ingot"
+      "registry_name": "tungsten_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_tardis/models/item/tungsten_ingot.json",
+          "src/main/java/net/projecttardis/item/TungstenIngotItem.java"
+        ]
+      },
+      "path": "~/Items"
     },
     {
       "name": "Steelingot",
       "type": "item",
-      "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "steelingot"
+      "registry_name": "steelingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/projecttardis/item/SteelingotItem.java",
+          "src/main/resources/assets/project_tardis/models/item/steelingot.json"
+        ]
+      },
+      "path": "~/Items"
     },
     {
       "name": "SteelNugget",
       "type": "item",
-      "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "steel_nugget"
+      "registry_name": "steel_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_tardis/models/item/steel_nugget.json",
+          "src/main/java/net/projecttardis/item/SteelNuggetItem.java"
+        ]
+      },
+      "path": "~/Items"
     },
     {
       "name": "TardisShell",
       "type": "item",
-      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tardis_shell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_tardis/models/item/tardis_shell.json",
+          "src/main/java/net/projecttardis/item/TardisShellItem.java"
+        ]
+      },
       "path": "~/components"
     },
     {
       "name": "EyeOfHarmony",
       "type": "item",
-      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "eye_of_harmony",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_tardis/models/item/eye_of_harmony.json",
+          "src/main/java/net/projecttardis/item/EyeOfHarmonyItem.java"
+        ]
+      },
       "path": "~/components"
     },
     {
       "name": "HeartOfTheTardis",
       "type": "item",
-      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "heart_of_the_tardis",
+      "metadata": {
+        "files": [
+          "src/main/java/net/projecttardis/item/HeartOfTheTardisItem.java",
+          "src/main/resources/assets/project_tardis/models/item/heart_of_the_tardis.json"
+        ]
+      },
       "path": "~/components"
     },
     {
       "name": "FlightController",
       "type": "item",
-      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flight_controller",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_tardis/models/item/flight_controller.json",
+          "src/main/java/net/projecttardis/item/FlightControllerItem.java"
+        ]
+      },
       "path": "~/components"
     },
     {
       "name": "NavigationArray",
       "type": "item",
-      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "navigation_array",
+      "metadata": {
+        "files": [
+          "src/main/java/net/projecttardis/item/NavigationArrayItem.java",
+          "src/main/resources/assets/project_tardis/models/item/navigation_array.json"
+        ]
+      },
       "path": "~/components"
     },
     {
       "name": "VortexStabiliser",
       "type": "item",
-      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vortex_stabiliser",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_tardis/models/item/vortex_stabiliser.json",
+          "src/main/java/net/projecttardis/item/VortexStabiliserItem.java"
+        ]
+      },
       "path": "~/components"
     },
     {
       "name": "SecuritySystem",
       "type": "item",
-      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "security_system",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_tardis/models/item/security_system.json",
+          "src/main/java/net/projecttardis/item/SecuritySystemItem.java"
+        ]
+      },
       "path": "~/components"
+    },
+    {
+      "name": "SunCoreItemInInventoryTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun_core_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/projecttardis/procedures/SunCoreItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SunCore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_tardis/models/item/sun_core.json",
+          "src/main/java/net/projecttardis/item/SunCoreItem.java"
+        ]
+      },
+      "path": "~/Sub Components"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item.project_tardis.security_system": "Tardis Shell",
-      "item.project_tardis.steelingot": "Steelingot",
-      "item.project_tardis.tungsten_ingot": "Tungsten Ingot",
       "item.project_tardis.tardis_shell": "Tardis Shell",
-      "item.project_tardis.flight_controller": "Tardis Shell",
-      "item.project_tardis.navigation_array": "Tardis Shell",
+      "item.project_tardis.tungsten_ingot": "Tungsten Ingot",
       "item.project_tardis.steel_nugget": "Steel Nugget",
       "item.project_tardis.eye_of_harmony": "Tardis Shell",
       "item.project_tardis.vortex_stabiliser": "Tardis Shell",
+      "item.project_tardis.steelingot": "Steelingot",
+      "item.project_tardis.flight_controller": "Tardis Shell",
+      "item.project_tardis.navigation_array": "Tardis Shell",
       "block.project_tardis.tungstenore": "Tungstenore",
-      "item.project_tardis.heart_of_the_tardis": "Tardis Shell"
+      "item.project_tardis.heart_of_the_tardis": "Tardis Shell",
+      "item.project_tardis.sun_core": "Sun Core"
     }
   },
   "foldersRoot": {
@@ -118,6 +219,18 @@
     "children": [
       {
         "name": "components",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": []
+      },
+      {
+        "name": "Sub Components",
+        "children": []
+      },
+      {
+        "name": "Procedures",
         "children": []
       }
     ]
@@ -128,15 +241,13 @@
     "version": "1.0.0",
     "author": "Taygamerlol, Evilguardian667",
     "license": "Academic Free License v3.0",
-    "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
-    "modElementsPackage": "net.projecttardis",
-    "lockBaseModFiles": false
+    "modElementsPackage": "net.projecttardis"
   },
-  "mcreatorVersion": 202200234517
+  "mcreatorVersion": 202400232117
 }

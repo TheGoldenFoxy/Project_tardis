@@ -6,17 +6,22 @@ license="Academic Free License v3.0"
 modId="project_tardis"
 version="1.0.0"
 displayName="Project TARDIS 2.0"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="Taygamerlol, Evilguardian667"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
 
 [[dependencies.project_tardis]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5]"
-    ordering="NONE"
+    ordering="AFTER"
     side="BOTH"
 
 
 
 
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

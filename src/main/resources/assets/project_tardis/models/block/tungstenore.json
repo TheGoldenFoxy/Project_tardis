@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "project_tardis:blocks/devblock",
-    "up": "project_tardis:blocks/devblock",
-    "north": "project_tardis:blocks/devblock",
-    "east": "project_tardis:blocks/devblock",
-    "south": "project_tardis:blocks/devblock",
-    "west": "project_tardis:blocks/devblock",
-    "particle": "project_tardis:blocks/devblock"
+    "down": "project_tardis:block/devblock",
+    "up": "project_tardis:block/devblock",
+    "north": "project_tardis:block/devblock",
+    "east": "project_tardis:block/devblock",
+    "south": "project_tardis:block/devblock",
+    "west": "project_tardis:block/devblock",
+    "particle": "project_tardis:block/devblock"
   }
 }
