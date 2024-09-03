@@ -1,13 +1,126 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Tungstenore",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstenore"
+    },
+    {
+      "name": "TungstenIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ingot"
+    },
+    {
+      "name": "Steelingot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelingot"
+    },
+    {
+      "name": "SteelNugget",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_nugget"
+    },
+    {
+      "name": "TardisShell",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tardis_shell",
+      "path": "~/components"
+    },
+    {
+      "name": "EyeOfHarmony",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eye_of_harmony",
+      "path": "~/components"
+    },
+    {
+      "name": "HeartOfTheTardis",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_of_the_tardis",
+      "path": "~/components"
+    },
+    {
+      "name": "FlightController",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flight_controller",
+      "path": "~/components"
+    },
+    {
+      "name": "NavigationArray",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "navigation_array",
+      "path": "~/components"
+    },
+    {
+      "name": "VortexStabiliser",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vortex_stabiliser",
+      "path": "~/components"
+    },
+    {
+      "name": "SecuritySystem",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "security_system",
+      "path": "~/components"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.project_tardis.security_system": "Tardis Shell",
+      "item.project_tardis.steelingot": "Steelingot",
+      "item.project_tardis.tungsten_ingot": "Tungsten Ingot",
+      "item.project_tardis.tardis_shell": "Tardis Shell",
+      "item.project_tardis.flight_controller": "Tardis Shell",
+      "item.project_tardis.navigation_array": "Tardis Shell",
+      "item.project_tardis.steel_nugget": "Steel Nugget",
+      "item.project_tardis.eye_of_harmony": "Tardis Shell",
+      "item.project_tardis.vortex_stabiliser": "Tardis Shell",
+      "block.project_tardis.tungstenore": "Tungstenore",
+      "item.project_tardis.heart_of_the_tardis": "Tardis Shell"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "components",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "project_tardis",
