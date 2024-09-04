@@ -177,7 +177,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedures"
     },
     {
       "name": "SunCore",
@@ -240,6 +241,7 @@
     "modName": "Project TARDIS 2.0",
     "version": "1.0.0",
     "author": "Taygamerlol, Evilguardian667",
+    "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "serverSideOnly": false,
     "requiredMods": [],
@@ -247,6 +249,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.projecttardis"
   },
   "mcreatorVersion": 202400232117
