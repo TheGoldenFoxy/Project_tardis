@@ -3,6 +3,7 @@ package net.projecttardis;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.projecttardis.init.ProjectTardisModTabs;
 import net.projecttardis.init.ProjectTardisModItems;
 import net.projecttardis.init.ProjectTardisModBlocks;
 
@@ -39,6 +40,7 @@ public class ProjectTardisMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(new ProjectTardisModFMLBusEvents(this));
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		ProjectTardisModTabs.load();
 
 		ProjectTardisModBlocks.REGISTRY.register(bus);
 		ProjectTardisModItems.REGISTRY.register(bus);

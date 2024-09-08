@@ -2,19 +2,19 @@
   "_fv": 66,
   "_type": "item",
   "definition": {
-    "renderType": 0,
-    "texture": "devitem",
-    "customModelName": "Normal",
+    "renderType": 1,
+    "texture": "minecraft:empty_armor_slot_boots",
+    "customModelName": "vortex_stabliser:default",
     "customProperties": {},
     "states": [],
-    "name": "Tardis Shell",
+    "name": "Vortex Manipulator",
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "MISC"
+        "value": "CUSTOM:ProjectTardis"
       }
     ],
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -31,12 +31,18 @@
     "specialInformation": {
       "fixedValue": []
     },
+    "glowCondition": {
+      "fixedValue": false
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "Arrow"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

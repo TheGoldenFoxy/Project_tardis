@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:tadditions:aeon_crystal"
+      },
+      {
+        "value": "TAG:tardis:vortex_detector"
+      },
+      {
+        "value": "TAG:tadditions:aeon_crystal"
+      },
+      {
+        "value": "TAG:aseoha:artron_bank_old"
+      },
+      {
+        "value": "TAG:tardis:subsystem/stabilizer"
+      },
+      {
+        "value": "TAG:tardis:data_crystal"
+      },
+      {
+        "value": "TAG:upgradednetherite:phantom_upgraded_netherite_ingot"
+      },
+      {
+        "value": "TAG:tardis:vm_module"
+      },
+      {
+        "value": "TAG:mekanism:upgrade_energy"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:VortexStabiliser"
+    },
+    "name": "vortex_manipulator",
+    "namespace": "mod"
+  }
+}

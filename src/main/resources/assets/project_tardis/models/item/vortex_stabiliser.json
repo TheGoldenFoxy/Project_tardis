@@ -1,6 +1,8 @@
 {
-  "parent": "item/generated",
+  "parent": "project_tardis:custom/vortex_stabliser",
   "textures": {
-    "layer0": "project_tardis:item/devitem"
+    "0": "project_tardis:block/texture2",
+    "1": "project_tardis:block/texture",
+    "particle": "minecraft:item/empty_armor_slot_boots"
   }
 }

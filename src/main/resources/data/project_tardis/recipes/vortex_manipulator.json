@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "cde",
+    "fgh"
+  ],
+  "key": {
+    "a": {
+      "tag": "tadditions:aeon_crystal"
+    },
+    "b": {
+      "tag": "tardis:vortex_detector"
+    },
+    "c": {
+      "tag": "aseoha:artron_bank_old"
+    },
+    "d": {
+      "tag": "tardis:subsystem/stabilizer"
+    },
+    "e": {
+      "tag": "tardis:data_crystal"
+    },
+    "f": {
+      "tag": "upgradednetherite:phantom_upgraded_netherite_ingot"
+    },
+    "g": {
+      "tag": "tardis:vm_module"
+    },
+    "h": {
+      "tag": "mekanism:upgrade_energy"
+    }
+  },
+  "result": {
+    "item": "project_tardis:vortex_stabiliser",
+    "count": 1
+  }
+}
