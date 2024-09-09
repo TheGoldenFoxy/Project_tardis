@@ -13,7 +13,7 @@ public class ProjectTardisModTabs {
 		TAB_PROJECT_TARDIS = new ItemGroup("tab_project_tardis") {
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(ProjectTardisModItems.SECURITY_SYSTEM.get());
+				return new ItemStack(ProjectTardisModItems.TARDIS_SHELL.get());
 			}
 
 			@Override
