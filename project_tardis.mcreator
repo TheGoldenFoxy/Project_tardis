@@ -225,8 +225,8 @@
   "language_map": {
     "en_us": {
       "item.project_tardis.security_system": "Tardis Shell",
-      "item.project_tardis.tardis_shell": "Tardis Shell",
       "item.project_tardis.tungsten_ingot": "Tungsten Ingot",
+      "item.project_tardis.tardis_shell": "Tardis Shell",
       "item.project_tardis.steel_nugget": "Steel Nugget",
       "item.project_tardis.eye_of_harmony": "Tardis Shell",
       "item.project_tardis.vortex_stabiliser": "Vortex Manipulator",
@@ -268,6 +268,7 @@
     "modid": "project_tardis",
     "modName": "Project TARDIS 2.0",
     "version": "1.0.0",
+    "description": "Additions to New Tardis Mod",
     "author": "Taygamerlol, Evilguardian667",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
@@ -277,7 +278,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Credits to Taygamerlol - Developer , TheGoldenFoxy - Head Dev, Model Designer",
     "modElementsPackage": "net.projecttardis"
   },
   "mcreatorVersion": 202400232117
