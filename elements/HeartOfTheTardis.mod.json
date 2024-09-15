@@ -2,16 +2,16 @@
   "_fv": 66,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "devitem",
-    "customModelName": "Normal",
+    "customModelName": "model:default",
     "customProperties": {},
     "states": [],
-    "name": "Tardis Shell",
+    "name": "Heart of Tardis",
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "MISC"
+        "value": "CUSTOM:ProjectTardis"
       }
     ],
     "stackSize": 64,
@@ -31,12 +31,18 @@
     "specialInformation": {
       "fixedValue": []
     },
+    "glowCondition": {
+      "fixedValue": false
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,
+    "projectile": {
+      "value": "Arrow"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

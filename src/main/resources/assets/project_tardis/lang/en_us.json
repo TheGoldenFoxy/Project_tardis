@@ -3,13 +3,13 @@
   "item.project_tardis.tungsten_ingot": "Tungsten Ingot",
   "item.project_tardis.tardis_shell": "Tardis Shell",
   "item.project_tardis.steel_nugget": "Steel Nugget",
-  "item.project_tardis.eye_of_harmony": "Tardis Shell",
+  "item.project_tardis.eye_of_harmony": "Eye Of Harmony",
   "item.project_tardis.vortex_stabiliser": "Vortex Manipulator",
   "itemGroup.tab_project_tardis": "Project Tardis",
   "item.project_tardis.steelingot": "Steelingot",
   "item.project_tardis.flight_controller": "Tardis Shell",
   "item.project_tardis.navigation_array": "Tardis Shell",
   "block.project_tardis.tungstenore": "Tungstenore",
-  "item.project_tardis.heart_of_the_tardis": "Tardis Shell",
+  "item.project_tardis.heart_of_the_tardis": "Heart of Tardis",
   "item.project_tardis.sun_core": "Sun Core"
 }

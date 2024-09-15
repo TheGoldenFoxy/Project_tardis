@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "project_tardis:custom/model",
   "textures": {
-    "layer0": "project_tardis:item/devitem"
+    "0": "project_tardis:block/idk",
+    "particle": "project_tardis:item/devitem"
   }
 }

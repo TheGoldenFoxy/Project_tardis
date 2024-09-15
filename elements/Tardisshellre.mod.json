@@ -1,0 +1,48 @@
+{
+  "_fv": 66,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "TAG:tardis:tungsten_plate"
+      },
+      {
+        "value": "TAG:tardis:oxygen_sealer"
+      },
+      {
+        "value": "TAG:tardis:artron_capacitor_high"
+      },
+      {
+        "value": "TAG:mekanism:basic_injecting_factory"
+      },
+      {
+        "value": "TAG:tardis:int_door"
+      },
+      {
+        "value": "TAG:mekanism:alloy_reinforced"
+      },
+      {
+        "value": "TAG:tardis:artron_capacitor_high"
+      },
+      {
+        "value": "TAG:tardis:waypoint_bank"
+      },
+      {
+        "value": "TAG:tardis:tungsten_plate"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TardisShell"
+    },
+    "name": "tardisshellre",
+    "namespace": "mod"
+  }
+}

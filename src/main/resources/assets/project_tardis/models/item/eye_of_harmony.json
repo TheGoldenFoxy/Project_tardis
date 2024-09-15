@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "project_tardis:custom/eyeofharmony",
   "textures": {
-    "layer0": "project_tardis:item/devitem"
+    "0": "project_tardis:block/eyeofharmony",
+    "particle": "project_tardis:item/devitem"
   }
 }

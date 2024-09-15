@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "abc",
+    "def",
+    "cga"
+  ],
+  "key": {
+    "a": {
+      "tag": "tardis:tungsten_plate"
+    },
+    "b": {
+      "tag": "tardis:oxygen_sealer"
+    },
+    "c": {
+      "tag": "tardis:artron_capacitor_high"
+    },
+    "d": {
+      "tag": "mekanism:basic_injecting_factory"
+    },
+    "e": {
+      "tag": "tardis:int_door"
+    },
+    "f": {
+      "tag": "mekanism:alloy_reinforced"
+    },
+    "g": {
+      "tag": "tardis:waypoint_bank"
+    }
+  },
+  "result": {
+    "item": "project_tardis:tardis_shell",
+    "count": 1
+  }
+}
