@@ -2,19 +2,15 @@
   "_fv": 66,
   "_type": "item",
   "definition": {
-    "renderType": 1,
-    "texture": "devitem",
-    "customModelName": "heartofthetardis:default",
+    "renderType": 0,
+    "texture": "console",
+    "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Heart of Tardis",
+    "name": "Console",
     "rarity": "COMMON",
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:ProjectTardis"
-      }
-    ],
-    "stackSize": 1,
+    "creativeTabs": [],
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,

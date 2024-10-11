@@ -1,7 +1,7 @@
 {
-  "parent": "project_tardis:custom/model",
+  "parent": "project_tardis:custom/heartofthetardis",
   "textures": {
-    "0": "project_tardis:block/idk",
+    "0": "project_tardis:block/heartofthetardis",
     "particle": "project_tardis:item/devitem"
   }
 }

@@ -15,6 +15,7 @@ import net.projecttardis.item.NavigationArrayItem;
 import net.projecttardis.item.HeartOfTheTardisItem;
 import net.projecttardis.item.FlightControllerItem;
 import net.projecttardis.item.EyeOfHarmonyItem;
+import net.projecttardis.item.ConsoleItem;
 import net.projecttardis.ProjectTardisMod;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -40,6 +41,7 @@ public class ProjectTardisModItems {
 	public static final RegistryObject<Item> VORTEX_STABILISER = REGISTRY.register("vortex_stabiliser", () -> new VortexStabiliserItem());
 	public static final RegistryObject<Item> SECURITY_SYSTEM = REGISTRY.register("security_system", () -> new SecuritySystemItem());
 	public static final RegistryObject<Item> SUN_CORE = REGISTRY.register("sun_core", () -> new SunCoreItem());
+	public static final RegistryObject<Item> CONSOLE = REGISTRY.register("console", () -> new ConsoleItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

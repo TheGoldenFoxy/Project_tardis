@@ -230,6 +230,20 @@
         ]
       },
       "path": "~/Recipies"
+    },
+    {
+      "name": "Console",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "console",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_tardis/models/item/console.json",
+          "src/main/java/net/projecttardis/item/ConsoleItem.java"
+        ]
+      },
+      "path": "~/components"
     }
   ],
   "variable_elements": [],
@@ -239,8 +253,9 @@
   "language_map": {
     "en_us": {
       "item.project_tardis.security_system": "Security System",
-      "item.project_tardis.tungsten_ingot": "Tungsten Ingot",
+      "item.project_tardis.console": "Console",
       "item.project_tardis.tardis_shell": "Tardis Shell",
+      "item.project_tardis.tungsten_ingot": "Tungsten Ingot",
       "item.project_tardis.steel_nugget": "Steel Nugget",
       "item.project_tardis.eye_of_harmony": "Eye Of Harmony",
       "item.project_tardis.vortex_stabiliser": "Vortex Stabliser",
