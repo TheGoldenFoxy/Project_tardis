@@ -13,7 +13,7 @@
       "item": "minecraft:lava_bucket"
     },
     "c": {
-      "item": "tadditions_capacitor_speed"
+      "item": "tadditions:artron_capacitor_speed"
     },
     "d": {
       "item": "mekanism:alloy_infused"
@@ -23,7 +23,7 @@
     }
   },
   "result": {
-    "item": "project_tardis:sun_core",
+    "item": "project_tardis:solar_core",
     "count": 1
   }
 }

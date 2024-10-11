@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "cde",
+    "fgh"
+  ],
+  "key": {
+    "a": {
+      "item": "securitycraft:alarm"
+    },
+    "b": {
+      "item": "securitycraft:rift_stabilizer"
+    },
+    "c": {
+      "item": "securitycraft:keypad_item"
+    },
+    "d": {
+      "item": "securitycraft:universal_block_reinforcer_lvl3"
+    },
+    "e": {
+      "item": "securitycraft:sonic_security_system"
+    },
+    "f": {
+      "item": "securitycraft::portable_radar"
+    },
+    "g": {
+      "item": "securitycraft:protecto"
+    },
+    "h": {
+      "item": "securitycraft:keycard_lv5"
+    }
+  },
+  "result": {
+    "item": "project_tardis:security_system",
+    "count": 1
+  }
+}

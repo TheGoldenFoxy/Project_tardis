@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "project_tardis:blocks/sun_core",
+  "random_sequence": "project_tardis:blocks/solar_core",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "project_tardis:sun_core"
+          "name": "project_tardis:solar_core"
         }
       ]
     }

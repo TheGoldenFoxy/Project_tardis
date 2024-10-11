@@ -208,7 +208,7 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "console",
+      "registry_name": "console_item",
       "metadata": {
         "files": [
           "src/main/resources/assets/project_tardis/models/item/console.json",
@@ -239,13 +239,13 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sun_core",
+      "registry_name": "solar_core",
       "metadata": {
         "files": [
-          "src/main/resources/assets/project_tardis/models/item/sun_core.json",
-          "src/main/resources/data/project_tardis/loot_tables/blocks/sun_core.json",
-          "src/main/resources/assets/project_tardis/blockstates/sun_core.json",
-          "src/main/resources/assets/project_tardis/models/block/sun_core.json",
+          "src/main/resources/data/project_tardis/loot_tables/blocks/solar_core.json",
+          "src/main/resources/assets/project_tardis/models/block/solar_core.json",
+          "src/main/resources/assets/project_tardis/blockstates/solar_core.json",
+          "src/main/resources/assets/project_tardis/models/item/solar_core.json",
           "src/main/java/net/projecttardis/block/SunCoreBlock.java"
         ]
       },
@@ -291,19 +291,6 @@
       "path": "~/Recipies"
     },
     {
-      "name": "Suncorer",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "suncorer",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/project_tardis/recipes/suncorer.json"
-        ]
-      },
-      "path": "~/Recipies"
-    },
-    {
       "name": "Eyeofharmonyr",
       "type": "recipe",
       "compiles": true,
@@ -341,6 +328,57 @@
         ]
       },
       "path": "~/Recipies"
+    },
+    {
+      "name": "Suncoretemp",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "suncoretemp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_tardis/recipes/suncoretemp.json"
+        ]
+      }
+    },
+    {
+      "name": "Heartoftardisr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "heartoftardisr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_tardis/recipes/heartoftardisr.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "Securitysystemr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "securitysystemr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_tardis/recipes/securitysystemr.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "Tungsten",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tungsten",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_tardis/recipes/tungsten.json"
+        ]
+      },
+      "path": "~/Recipies"
     }
   ],
   "variable_elements": [],
@@ -350,18 +388,18 @@
   "language_map": {
     "en_us": {
       "item.project_tardis.security_system": "Security System",
-      "item.project_tardis.console": "Console",
+      "item.project_tardis.console": "Consoles",
       "item.project_tardis.tardis_shell": "Tardis Shell",
       "item.project_tardis.tungsten_ingot": "Tungsten Ingot",
-      "item.project_tardis.vortex_stabiliser": "Vortex Stabliser",
-      "item.project_tardis.eye_of_harmony": "Eye Of Harmony",
       "item.project_tardis.steel_nugget": "Steel Nugget",
+      "item.project_tardis.eye_of_harmony": "Eye Of Harmony",
+      "item.project_tardis.vortex_stabiliser": "Vortex Stabliser",
       "itemGroup.tab_project_tardis": "Project Tardis",
       "item.project_tardis.steelingot": "Steelingot",
       "item.project_tardis.flight_controller": "Flight Controller",
-      "block.project_tardis.sun_core": "Sun Core",
       "block.project_tardis.tungstenore": "Tungstenore",
       "item.project_tardis.heart_of_the_tardis": "Heart of Tardis",
+      "block.project_tardis.solar_core": "Sun Core",
       "block.project_tardis.nav_array": "Navgation Array"
     }
   },

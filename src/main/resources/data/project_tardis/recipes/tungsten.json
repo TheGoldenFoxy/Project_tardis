@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "project_tardis:tungsten_ingot"
+    }
+  },
+  "result": {
+    "item": "tardis:tungsten",
+    "count": 1
+  }
+}

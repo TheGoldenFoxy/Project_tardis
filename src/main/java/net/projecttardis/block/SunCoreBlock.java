@@ -27,7 +27,7 @@ public class SunCoreBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		RenderTypeLookup.setRenderLayer(ProjectTardisModBlocks.SUN_CORE.get(), RenderType.getCutout());
+		RenderTypeLookup.setRenderLayer(ProjectTardisModBlocks.SOLAR_CORE.get(), RenderType.getCutout());
 	}
 
 	@Override

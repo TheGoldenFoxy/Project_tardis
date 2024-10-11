@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.RED_FLOWER#1"
+        "value": "CUSTOM:TungstenIngot"
       },
       {
-        "value": "Items.LAVA_BUCKET"
+        "value": "CUSTOM:TungstenIngot"
       },
       {
-        "value": "Blocks.RED_FLOWER#1"
+        "value": ""
       },
       {
-        "value": "Blocks.COAL_ORE"
+        "value": "CUSTOM:TungstenIngot"
       },
       {
-        "value": "Blocks.DIRT#2"
+        "value": "CUSTOM:TungstenIngot"
       },
       {
-        "value": "Blocks.COAL_ORE"
+        "value": ""
       },
       {
-        "value": "Blocks.JUNGLE_WOOD"
+        "value": ""
       },
       {
-        "value": "Items.LAVA_BUCKET"
+        "value": ""
       },
       {
-        "value": "Blocks.JUNGLE_WOOD"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SunCore"
+      "value": "Blocks.STONE#2"
     },
-    "name": "suncorer",
+    "name": "tungsten",
     "namespace": "mod"
   }
 }

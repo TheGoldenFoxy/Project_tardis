@@ -7,35 +7,35 @@
   ],
   "key": {
     "a": {
-      "item": "aseoha:facing_control"
+      "item": "minecraft:cut_red_sandstone"
     },
     "b": {
-      "item": "aseoha:flight_button"
+      "item": "minecraft:lily_of_the_valley"
     },
     "c": {
-      "item": "aseoha:randomizer_control"
+      "item": "minecraft:campfire"
     },
     "d": {
-      "item": "aseoha:handbreak_control"
+      "item": "minecraft:coal_block"
     },
     "e": {
-      "item": "aseoha:control_mold"
+      "item": "minecraft:acacia_planks"
     },
     "f": {
-      "item": "aseoha:refueler_control"
+      "item": "minecraft:smooth_stone"
     },
     "g": {
-      "item": "aseoha:x_control"
+      "item": "minecraft:diorite_wall"
     },
     "h": {
-      "item": "aseoha:y_control"
+      "item": "minecraft:nether_gold_ore"
     },
     "i": {
-      "item": "aseoha:z_control"
+      "item": "minecraft:quartz_pillar"
     }
   },
   "result": {
-    "item": "project_tardis:console",
+    "item": "project_tardis:console_item",
     "count": 1
   }
 }

@@ -22,7 +22,7 @@ public class ProjectTardisModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ProjectTardisMod.MODID);
 	public static final RegistryObject<Block> TUNGSTENORE = REGISTRY.register("tungstenore", () -> new TungstenoreBlock());
 	public static final RegistryObject<Block> NAV_ARRAY = REGISTRY.register("nav_array", () -> new NavArrayBlock());
-	public static final RegistryObject<Block> SUN_CORE = REGISTRY.register("sun_core", () -> new SunCoreBlock());
+	public static final RegistryObject<Block> SOLAR_CORE = REGISTRY.register("solar_core", () -> new SunCoreBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

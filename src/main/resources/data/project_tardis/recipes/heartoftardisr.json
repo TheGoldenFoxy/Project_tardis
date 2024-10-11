@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "abc",
+    "def",
+    "gbh"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:dragon_breath"
+    },
+    "b": {
+      "item": "upgradednetherite:fire_upgraded_netherite_ingot"
+    },
+    "c": {
+      "item": "minecraft:blaze_rod"
+    },
+    "d": {
+      "item": "mekanism:advanced_control_circuit"
+    },
+    "e": {
+      "item": "regen:fobwatch"
+    },
+    "f": {
+      "item": "mekanism:enriched_redstone"
+    },
+    "g": {
+      "item": "minecraft:conduit"
+    },
+    "h": {
+      "item": "mekanism:cardboard_box"
+    }
+  },
+  "result": {
+    "item": "project_tardis:heart_of_the_tardis",
+    "count": 1
+  }
+}

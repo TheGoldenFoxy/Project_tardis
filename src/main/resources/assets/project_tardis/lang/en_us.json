@@ -1,16 +1,16 @@
 {
   "item.project_tardis.security_system": "Security System",
-  "item.project_tardis.console": "Console",
+  "item.project_tardis.console": "Consoles",
   "item.project_tardis.tardis_shell": "Tardis Shell",
   "item.project_tardis.tungsten_ingot": "Tungsten Ingot",
-  "item.project_tardis.vortex_stabiliser": "Vortex Stabliser",
-  "item.project_tardis.eye_of_harmony": "Eye Of Harmony",
   "item.project_tardis.steel_nugget": "Steel Nugget",
+  "item.project_tardis.eye_of_harmony": "Eye Of Harmony",
+  "item.project_tardis.vortex_stabiliser": "Vortex Stabliser",
   "itemGroup.tab_project_tardis": "Project Tardis",
   "item.project_tardis.steelingot": "Steelingot",
   "item.project_tardis.flight_controller": "Flight Controller",
-  "block.project_tardis.sun_core": "Sun Core",
   "block.project_tardis.tungstenore": "Tungstenore",
   "item.project_tardis.heart_of_the_tardis": "Heart of Tardis",
+  "block.project_tardis.solar_core": "Sun Core",
   "block.project_tardis.nav_array": "Navgation Array"
 }
