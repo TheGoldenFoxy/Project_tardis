@@ -37,7 +37,7 @@ public class ProjectTardisModItems {
 	public static final RegistryObject<Item> FLIGHT_CONTROLLER = REGISTRY.register("flight_controller", () -> new FlightControllerItem());
 	public static final RegistryObject<Item> VORTEX_STABILISER = REGISTRY.register("vortex_stabiliser", () -> new VortexStabiliserItem());
 	public static final RegistryObject<Item> SECURITY_SYSTEM = REGISTRY.register("security_system", () -> new SecuritySystemItem());
-	public static final RegistryObject<Item> CONSOLE_ITEM = REGISTRY.register("console_item", () -> new ConsoleItem());
+	public static final RegistryObject<Item> CONSOLE = REGISTRY.register("console", () -> new ConsoleItem());
 	public static final RegistryObject<Item> NAV_ARRAY = block(ProjectTardisModBlocks.NAV_ARRAY, ProjectTardisModTabs.TAB_PROJECT_TARDIS);
 	public static final RegistryObject<Item> SOLAR_CORE = block(ProjectTardisModBlocks.SOLAR_CORE, ProjectTardisModTabs.TAB_PROJECT_TARDIS);
 
