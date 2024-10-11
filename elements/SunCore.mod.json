@@ -2,9 +2,9 @@
   "_fv": 66,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "minecraft:leather_chestplate_overlay",
-    "customModelName": "Normal",
+    "customModelName": "suncore:default",
     "customProperties": {},
     "states": [],
     "name": "Sun Core",

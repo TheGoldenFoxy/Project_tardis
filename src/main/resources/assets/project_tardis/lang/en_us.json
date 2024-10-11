@@ -7,8 +7,8 @@
   "item.project_tardis.vortex_stabiliser": "Vortex Stabliser",
   "itemGroup.tab_project_tardis": "Project Tardis",
   "item.project_tardis.steelingot": "Steelingot",
-  "item.project_tardis.flight_controller": "Tardis Shell",
-  "item.project_tardis.navigation_array": "Tardis Shell",
+  "item.project_tardis.flight_controller": "Flight Controller",
+  "item.project_tardis.navigation_array": "Navgation Array",
   "block.project_tardis.tungstenore": "Tungstenore",
   "item.project_tardis.heart_of_the_tardis": "Heart of Tardis",
   "item.project_tardis.sun_core": "Sun Core"

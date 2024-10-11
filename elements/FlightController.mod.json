@@ -7,14 +7,14 @@
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Tardis Shell",
+    "name": "Flight Controller",
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "MISC"
+        "value": "CUSTOM:ProjectTardis"
       }
     ],
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,

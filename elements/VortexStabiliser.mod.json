@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 1,
     "texture": "minecraft:empty_armor_slot_boots",
-    "customModelName": "vortex_stabliser:default",
+    "customModelName": "vortex_stablisers:default",
     "customProperties": {},
     "states": [],
     "name": "Vortex Stabliser",
