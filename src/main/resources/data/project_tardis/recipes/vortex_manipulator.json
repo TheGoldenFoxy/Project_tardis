@@ -7,28 +7,28 @@
   ],
   "key": {
     "a": {
-      "tag": "tadditions:aeon_crystal"
+      "item": "tadditions:aeon_crystal"
     },
     "b": {
-      "tag": "tardis:vortex_detector"
+      "item": "tardis:vortex_detector"
     },
     "c": {
-      "tag": "aseoha:artron_bank_old"
+      "item": "aseoha:artron_bank_old"
     },
     "d": {
-      "tag": "tardis:subsystem/stabilizer"
+      "item": "tardis:subsystem/stabilizer"
     },
     "e": {
-      "tag": "tardis:data_crystal"
+      "item": "tardis:data_crystal"
     },
     "f": {
       "tag": "upgradednetherite:phantom_upgraded_netherite_ingot"
     },
     "g": {
-      "tag": "tardis:vm_module"
+      "item": "tardis:vm_module"
     },
     "h": {
-      "tag": "mekanism:upgrade_energy"
+      "item": "mekanism:upgrade_energy"
     }
   },
   "result": {

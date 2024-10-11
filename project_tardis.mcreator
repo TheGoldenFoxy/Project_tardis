@@ -181,7 +181,7 @@
       "name": "VortexManipulator",
       "type": "recipe",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "vortex_manipulator",
       "metadata": {
         "files": [
@@ -194,7 +194,7 @@
       "name": "Tardisshellre",
       "type": "recipe",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "tardisshellre",
       "metadata": {
         "files": [
@@ -263,6 +263,84 @@
         ]
       },
       "path": "~/Recipies"
+    },
+    {
+      "name": "Consoler",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "consoler",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_tardis/recipes/consoler.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "Brokenexterior",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "brokenexterior",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_tardis/recipes/brokenexterior.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "Suncorer",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "suncorer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_tardis/recipes/suncorer.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "Eyeofharmonyr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "eyeofharmonyr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_tardis/recipes/eyeofharmonyr.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "Flightcontrollerr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "flightcontrollerr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_tardis/recipes/flightcontrollerr.json"
+        ]
+      },
+      "path": "~/Recipies"
+    },
+    {
+      "name": "Navarrayr",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "navarrayr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_tardis/recipes/navarrayr.json"
+        ]
+      },
+      "path": "~/Recipies"
     }
   ],
   "variable_elements": [],
@@ -273,11 +351,11 @@
     "en_us": {
       "item.project_tardis.security_system": "Security System",
       "item.project_tardis.console": "Console",
-      "item.project_tardis.tungsten_ingot": "Tungsten Ingot",
       "item.project_tardis.tardis_shell": "Tardis Shell",
-      "item.project_tardis.steel_nugget": "Steel Nugget",
-      "item.project_tardis.eye_of_harmony": "Eye Of Harmony",
+      "item.project_tardis.tungsten_ingot": "Tungsten Ingot",
       "item.project_tardis.vortex_stabiliser": "Vortex Stabliser",
+      "item.project_tardis.eye_of_harmony": "Eye Of Harmony",
+      "item.project_tardis.steel_nugget": "Steel Nugget",
       "itemGroup.tab_project_tardis": "Project Tardis",
       "item.project_tardis.steelingot": "Steelingot",
       "item.project_tardis.flight_controller": "Flight Controller",

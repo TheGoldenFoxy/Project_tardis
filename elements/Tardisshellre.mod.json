@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "TAG:tardis:tungsten_plate"
+        "value": "Blocks.LEAVES#3"
       },
       {
-        "value": "TAG:tardis:oxygen_sealer"
+        "value": "Blocks.RAIL"
       },
       {
-        "value": "TAG:tardis:artron_capacitor_high"
+        "value": "Blocks.STRIPPED_BIRCH_WOOD"
       },
       {
-        "value": "TAG:mekanism:basic_injecting_factory"
+        "value": "Blocks.GOLDEN_RAIL"
       },
       {
-        "value": "TAG:tardis:int_door"
+        "value": "Blocks.DETECTOR_RAIL"
       },
       {
-        "value": "TAG:mekanism:alloy_reinforced"
+        "value": "Blocks.ACTIVATOR_RAIL"
       },
       {
-        "value": "TAG:tardis:artron_capacitor_high"
+        "value": "Blocks.STRIPPED_BIRCH_WOOD"
       },
       {
-        "value": "TAG:tardis:waypoint_bank"
+        "value": "Blocks.SOUL_WALL_TORCH"
       },
       {
-        "value": "TAG:tardis:tungsten_plate"
+        "value": "Blocks.LEAVES#3"
       }
     ],
     "recipeReturnStack": {

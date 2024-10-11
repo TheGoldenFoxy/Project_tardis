@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "project_tardis:flight_controller"
+    },
+    "b": {
+      "item": "project_tardis:tardis_shell"
+    },
+    "c": {
+      "item": "project_tardis:nav_array"
+    },
+    "d": {
+      "item": "project_tardis:eye_of_harmony"
+    },
+    "e": {
+      "item": "project_tardis:console"
+    },
+    "f": {
+      "item": "project_tardis:security_system"
+    },
+    "g": {
+      "item": "tardis:tungsten"
+    },
+    "h": {
+      "item": "project_tardis:heart_of_the_tardis"
+    },
+    "i": {
+      "item": "project_tardis:vortex_stabiliser"
+    }
+  },
+  "result": {
+    "item": "tardis:broken_exterior",
+    "count": 1
+  }
+}

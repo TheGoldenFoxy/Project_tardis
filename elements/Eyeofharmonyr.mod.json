@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "Blocks.SMOOTH_QUARTZ_STAIRS"
       },
       {
-        "value": "Blocks.LOG2#0"
+        "value": "Items.NETHERITE_INGOT"
       },
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "Blocks.SMOOTH_QUARTZ_STAIRS"
       },
       {
-        "value": "Blocks.STRIPPED_JUNGLE_WOOD"
+        "value": "Blocks.DIAMOND_ORE"
       },
       {
-        "value": "Blocks.SAND#1"
+        "value": "CUSTOM:SunCore"
       },
       {
-        "value": "Blocks.DIAMOND_BLOCK"
+        "value": "Blocks.SANDSTONE#2"
       },
       {
-        "value": "Blocks.LEAVES2"
+        "value": "Items.BLAZE_ROD"
       },
       {
-        "value": "Blocks.RED_FLOWER#1"
+        "value": "Blocks.SPONGE#0"
       },
       {
-        "value": "Blocks.SMOOTH_STONE"
+        "value": "Items.BLAZE_ROD"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:VortexStabiliser"
+      "value": "CUSTOM:EyeOfHarmony"
     },
-    "name": "vortex_manipulator",
+    "name": "eyeofharmonyr",
     "namespace": "mod"
   }
 }

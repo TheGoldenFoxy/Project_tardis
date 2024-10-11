@@ -7,25 +7,25 @@
   ],
   "key": {
     "a": {
-      "tag": "tardis:tungsten_plate"
+      "item": "tardis:tungsten"
     },
     "b": {
-      "tag": "tardis:oxygen_sealer"
+      "item": "tardis:oxygen_sealer"
     },
     "c": {
-      "tag": "tardis:artron_capacitor_high"
+      "item": "tardis:artron_capacitor_high"
     },
     "d": {
-      "tag": "mekanism:basic_injecting_factory"
+      "item": "mekanism:basic_injecting_factory"
     },
     "e": {
-      "tag": "tardis:int_door"
+      "item": "tardis:int_door"
     },
     "f": {
-      "tag": "mekanism:alloy_reinforced"
+      "item": "mekanism:alloy_reinforced"
     },
     "g": {
-      "tag": "tardis:waypoint_bank"
+      "item": "tardis:waypoint_bank"
     }
   },
   "result": {

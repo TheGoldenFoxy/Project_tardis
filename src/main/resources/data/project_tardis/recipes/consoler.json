@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "aseoha:facing_control"
+    },
+    "b": {
+      "item": "aseoha:flight_button"
+    },
+    "c": {
+      "item": "aseoha:randomizer_control"
+    },
+    "d": {
+      "item": "aseoha:handbreak_control"
+    },
+    "e": {
+      "item": "aseoha:control_mold"
+    },
+    "f": {
+      "item": "aseoha:refueler_control"
+    },
+    "g": {
+      "item": "aseoha:x_control"
+    },
+    "h": {
+      "item": "aseoha:y_control"
+    },
+    "i": {
+      "item": "aseoha:z_control"
+    }
+  },
+  "result": {
+    "item": "project_tardis:console",
+    "count": 1
+  }
+}

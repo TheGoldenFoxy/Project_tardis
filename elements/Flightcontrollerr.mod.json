@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "Blocks.SLIME_BLOCK"
       },
       {
-        "value": "Blocks.LOG2#0"
+        "value": "Items.ENDER_EYE"
       },
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "Blocks.SLIME_BLOCK"
       },
       {
-        "value": "Blocks.STRIPPED_JUNGLE_WOOD"
+        "value": "Blocks.QUARTZ_ORE"
       },
       {
-        "value": "Blocks.SAND#1"
-      },
-      {
-        "value": "Blocks.DIAMOND_BLOCK"
+        "value": "Blocks.CRIMSON_STEM"
       },
       {
         "value": "Blocks.LEAVES2"
       },
       {
-        "value": "Blocks.RED_FLOWER#1"
+        "value": "Blocks.STRIPPED_BIRCH_LOG"
       },
       {
-        "value": "Blocks.SMOOTH_STONE"
+        "value": "Blocks.SMOOTH_SANDSTONE_SLAB"
+      },
+      {
+        "value": "Blocks.STRIPPED_BIRCH_LOG"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:VortexStabiliser"
+      "value": "CUSTOM:FlightController"
     },
-    "name": "vortex_manipulator",
+    "name": "flightcontrollerr",
     "namespace": "mod"
   }
 }

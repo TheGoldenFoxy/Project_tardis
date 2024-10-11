@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "CUSTOM:FlightController"
       },
       {
-        "value": "Blocks.LOG2#0"
+        "value": "CUSTOM:TardisShell"
       },
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "CUSTOM:NavArray"
       },
       {
-        "value": "Blocks.STRIPPED_JUNGLE_WOOD"
+        "value": "CUSTOM:EyeOfHarmony"
       },
       {
-        "value": "Blocks.SAND#1"
+        "value": "CUSTOM:Console"
+      },
+      {
+        "value": "CUSTOM:SecuritySystem"
       },
       {
         "value": "Blocks.DIAMOND_BLOCK"
       },
       {
-        "value": "Blocks.LEAVES2"
+        "value": "CUSTOM:HeartOfTheTardis"
       },
       {
-        "value": "Blocks.RED_FLOWER#1"
-      },
-      {
-        "value": "Blocks.SMOOTH_STONE"
+        "value": "CUSTOM:VortexStabiliser"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:VortexStabiliser"
+      "value": "Blocks.RED_FLOWER#5"
     },
-    "name": "vortex_manipulator",
+    "name": "brokenexterior",
     "namespace": "mod"
   }
 }

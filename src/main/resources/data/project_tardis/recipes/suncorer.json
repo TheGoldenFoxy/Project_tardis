@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ebe"
+  ],
+  "key": {
+    "a": {
+      "item": "tardis:mercury_bottle"
+    },
+    "b": {
+      "item": "minecraft:lava_bucket"
+    },
+    "c": {
+      "item": "tadditions_capacitor_speed"
+    },
+    "d": {
+      "item": "mekanism:alloy_infused"
+    },
+    "e": {
+      "item": "arks_ntm_additions:sulfur"
+    }
+  },
+  "result": {
+    "item": "project_tardis:sun_core",
+    "count": 1
+  }
+}

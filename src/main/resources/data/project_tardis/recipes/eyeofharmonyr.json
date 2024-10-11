@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "cde",
+    "fgf"
+  ],
+  "key": {
+    "a": {
+      "item": "tadditions:artron_capacitor_ultra"
+    },
+    "b": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "c": {
+      "item": "tadditions:artron_battery_temporal"
+    },
+    "d": {
+      "item": "project_tardis:sun_core"
+    },
+    "e": {
+      "item": "tadditions:artron_battery_speed"
+    },
+    "f": {
+      "item": "minecraft:blaze_rod"
+    },
+    "g": {
+      "item": "tardis:mercury_bottle"
+    }
+  },
+  "result": {
+    "item": "project_tardis:eye_of_harmony",
+    "count": 1
+  }
+}

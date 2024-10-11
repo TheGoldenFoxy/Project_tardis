@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "cde",
+    "fgf"
+  ],
+  "key": {
+    "a": {
+      "item": "upgradednetherite_items:ender_upgraded_netherite_pearl"
+    },
+    "b": {
+      "item": "minecraft:ender_eye"
+    },
+    "c": {
+      "item": "upgradednetherite:ender_upgraded_netherite_ingot"
+    },
+    "d": {
+      "item": "tardis:pocket_watch"
+    },
+    "e": {
+      "tag": "upgradednetherite:phantom_upgraded_netherite_ingot"
+    },
+    "f": {
+      "item": "tardis:mercury_bottle"
+    },
+    "g": {
+      "item": "tardis:subsystem/dematerialisatioN_circuit"
+    }
+  },
+  "result": {
+    "item": "project_tardis:flight_controller",
+    "count": 1
+  }
+}

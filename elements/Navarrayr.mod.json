@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "Blocks.EMERALD_BLOCK"
       },
       {
-        "value": "Blocks.LOG2#0"
+        "value": "Blocks.WARPED_HYPHAE"
       },
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "Blocks.EMERALD_BLOCK"
       },
       {
-        "value": "Blocks.STRIPPED_JUNGLE_WOOD"
+        "value": "Blocks.ORANGE_BED"
       },
       {
-        "value": "Blocks.SAND#1"
+        "value": "Blocks.PURPLE_BED"
       },
       {
-        "value": "Blocks.DIAMOND_BLOCK"
+        "value": "Blocks.LIGHT_GRAY_BED"
       },
       {
-        "value": "Blocks.LEAVES2"
+        "value": "Blocks.STRIPPED_WARPED_HYPHAE"
       },
       {
-        "value": "Blocks.RED_FLOWER#1"
+        "value": "Blocks.LAPIS_ORE"
       },
       {
-        "value": "Blocks.SMOOTH_STONE"
+        "value": "Blocks.STRIPPED_WARPED_HYPHAE"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:VortexStabiliser"
+      "value": "CUSTOM:NavArray"
     },
-    "name": "vortex_manipulator",
+    "name": "navarrayr",
     "namespace": "mod"
   }
 }

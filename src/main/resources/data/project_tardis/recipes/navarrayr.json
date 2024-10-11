@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "cde",
+    "fgf"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald_block"
+    },
+    "b": {
+      "item": "upgradednetherite_items:ender_upgraded_netherite_pearl"
+    },
+    "c": {
+      "item": "tardis:subsystem/nav_com"
+    },
+    "d": {
+      "item": "mekanism:basic_control_circuit"
+    },
+    "e": {
+      "item": "tardis:circuits"
+    },
+    "f": {
+      "item": "regen:zinc"
+    },
+    "g": {
+      "item": "tardis:waypoint_bank"
+    }
+  },
+  "result": {
+    "item": "project_tardis:nav_array",
+    "count": 1
+  }
+}

@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "Blocks.RED_SANDSTONE#2"
       },
       {
-        "value": "Blocks.LOG2#0"
+        "value": "Blocks.LILY_OF_THE_VALLEY"
       },
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "Blocks.CAMPFIRE"
       },
       {
-        "value": "Blocks.STRIPPED_JUNGLE_WOOD"
+        "value": "Blocks.COAL_BLOCK"
       },
       {
-        "value": "Blocks.SAND#1"
-      },
-      {
-        "value": "Blocks.DIAMOND_BLOCK"
-      },
-      {
-        "value": "Blocks.LEAVES2"
-      },
-      {
-        "value": "Blocks.RED_FLOWER#1"
+        "value": "Blocks.PLANKS#4"
       },
       {
         "value": "Blocks.SMOOTH_STONE"
+      },
+      {
+        "value": "Blocks.DIORITE_WALL"
+      },
+      {
+        "value": "Blocks.NETHER_GOLD_ORE"
+      },
+      {
+        "value": "Blocks.QUARTZ_BLOCK#2"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:VortexStabiliser"
+      "value": "CUSTOM:Console"
     },
-    "name": "vortex_manipulator",
+    "name": "consoler",
     "namespace": "mod"
   }
 }

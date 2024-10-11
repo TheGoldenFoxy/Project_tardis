@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.DOUBLE_PLANT#0"
+        "value": "Blocks.RED_FLOWER#1"
       },
       {
-        "value": "Blocks.LOG2#0"
-      },
-      {
-        "value": "Blocks.DOUBLE_PLANT#0"
-      },
-      {
-        "value": "Blocks.STRIPPED_JUNGLE_WOOD"
-      },
-      {
-        "value": "Blocks.SAND#1"
-      },
-      {
-        "value": "Blocks.DIAMOND_BLOCK"
-      },
-      {
-        "value": "Blocks.LEAVES2"
+        "value": "Items.LAVA_BUCKET"
       },
       {
         "value": "Blocks.RED_FLOWER#1"
       },
       {
-        "value": "Blocks.SMOOTH_STONE"
+        "value": "Blocks.COAL_ORE"
+      },
+      {
+        "value": "Blocks.DIRT#2"
+      },
+      {
+        "value": "Blocks.COAL_ORE"
+      },
+      {
+        "value": "Blocks.JUNGLE_WOOD"
+      },
+      {
+        "value": "Items.LAVA_BUCKET"
+      },
+      {
+        "value": "Blocks.JUNGLE_WOOD"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:VortexStabiliser"
+      "value": "CUSTOM:SunCore"
     },
-    "name": "vortex_manipulator",
+    "name": "suncorer",
     "namespace": "mod"
   }
 }
