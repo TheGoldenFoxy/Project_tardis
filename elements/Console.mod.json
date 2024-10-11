@@ -9,7 +9,11 @@
     "states": [],
     "name": "Console",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:ProjectTardis"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,

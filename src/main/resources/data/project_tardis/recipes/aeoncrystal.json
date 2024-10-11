@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "tardis:mercury_bottle"
+    },
+    "b": {
+      "item": "tardis:xion_crystal"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    },
+    "d": {
+      "item": "tardis:artron_battery"
+    }
+  },
+  "result": {
+    "item": "tadditions:aeon_crystal",
+    "count": 1
+  }
+}

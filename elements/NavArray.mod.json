@@ -2,14 +2,14 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "suncore",
+    "texture": "navarray",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "suncore:default",
+    "customModelName": "navarray:default",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -20,7 +20,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Sun Core",
+    "name": "Navgation Array",
     "specialInformation": {
       "fixedValue": []
     },
@@ -121,9 +121,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onEntityWalksOn": {
-      "name": "SunCoreItemInInventoryTick"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

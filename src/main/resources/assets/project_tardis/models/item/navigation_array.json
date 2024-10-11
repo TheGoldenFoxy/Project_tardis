@@ -1,7 +1,0 @@
-{
-  "parent": "project_tardis:custom/navarray",
-  "textures": {
-    "0": "project_tardis:block/navarray",
-    "particle": "project_tardis:item/devitem"
-  }
-}

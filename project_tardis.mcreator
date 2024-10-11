@@ -117,20 +117,6 @@
       "path": "~/components"
     },
     {
-      "name": "NavigationArray",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "navigation_array",
-      "metadata": {
-        "files": [
-          "src/main/java/net/projecttardis/item/NavigationArrayItem.java",
-          "src/main/resources/assets/project_tardis/models/item/navigation_array.json"
-        ]
-      },
-      "path": "~/components"
-    },
-    {
       "name": "VortexStabiliser",
       "type": "item",
       "compiles": true,
@@ -182,20 +168,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "SunCore",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sun_core",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/project_tardis/models/item/sun_core.json",
-          "src/main/java/net/projecttardis/item/SunCoreItem.java"
-        ]
-      },
-      "path": "~/Sub Components"
-    },
-    {
       "name": "ProjectTardis",
       "type": "tab",
       "compiles": true,
@@ -244,6 +216,53 @@
         ]
       },
       "path": "~/components"
+    },
+    {
+      "name": "NavArray",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nav_array",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_tardis/blockstates/nav_array.json",
+          "src/main/resources/data/project_tardis/loot_tables/blocks/nav_array.json",
+          "src/main/resources/assets/project_tardis/models/block/nav_array.json",
+          "src/main/java/net/projecttardis/block/NavArrayBlock.java",
+          "src/main/resources/assets/project_tardis/models/item/nav_array.json"
+        ]
+      },
+      "path": "~/components"
+    },
+    {
+      "name": "SunCore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/project_tardis/models/item/sun_core.json",
+          "src/main/resources/data/project_tardis/loot_tables/blocks/sun_core.json",
+          "src/main/resources/assets/project_tardis/blockstates/sun_core.json",
+          "src/main/resources/assets/project_tardis/models/block/sun_core.json",
+          "src/main/java/net/projecttardis/block/SunCoreBlock.java"
+        ]
+      },
+      "path": "~/components"
+    },
+    {
+      "name": "Aeoncrystal",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "aeoncrystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_tardis/recipes/aeoncrystal.json"
+        ]
+      },
+      "path": "~/Recipies"
     }
   ],
   "variable_elements": [],
@@ -254,18 +273,18 @@
     "en_us": {
       "item.project_tardis.security_system": "Security System",
       "item.project_tardis.console": "Console",
-      "item.project_tardis.tardis_shell": "Tardis Shell",
       "item.project_tardis.tungsten_ingot": "Tungsten Ingot",
+      "item.project_tardis.tardis_shell": "Tardis Shell",
       "item.project_tardis.steel_nugget": "Steel Nugget",
       "item.project_tardis.eye_of_harmony": "Eye Of Harmony",
       "item.project_tardis.vortex_stabiliser": "Vortex Stabliser",
       "itemGroup.tab_project_tardis": "Project Tardis",
       "item.project_tardis.steelingot": "Steelingot",
       "item.project_tardis.flight_controller": "Flight Controller",
-      "item.project_tardis.navigation_array": "Navgation Array",
+      "block.project_tardis.sun_core": "Sun Core",
       "block.project_tardis.tungstenore": "Tungstenore",
       "item.project_tardis.heart_of_the_tardis": "Heart of Tardis",
-      "item.project_tardis.sun_core": "Sun Core"
+      "block.project_tardis.nav_array": "Navgation Array"
     }
   },
   "foldersRoot": {
@@ -277,10 +296,6 @@
       },
       {
         "name": "Items",
-        "children": []
-      },
-      {
-        "name": "Sub Components",
         "children": []
       },
       {

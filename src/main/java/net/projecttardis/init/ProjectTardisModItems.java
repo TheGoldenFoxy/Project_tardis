@@ -7,11 +7,9 @@ package net.projecttardis.init;
 import net.projecttardis.item.VortexStabiliserItem;
 import net.projecttardis.item.TungstenIngotItem;
 import net.projecttardis.item.TardisShellItem;
-import net.projecttardis.item.SunCoreItem;
 import net.projecttardis.item.SteelingotItem;
 import net.projecttardis.item.SteelNuggetItem;
 import net.projecttardis.item.SecuritySystemItem;
-import net.projecttardis.item.NavigationArrayItem;
 import net.projecttardis.item.HeartOfTheTardisItem;
 import net.projecttardis.item.FlightControllerItem;
 import net.projecttardis.item.EyeOfHarmonyItem;
@@ -37,11 +35,11 @@ public class ProjectTardisModItems {
 	public static final RegistryObject<Item> EYE_OF_HARMONY = REGISTRY.register("eye_of_harmony", () -> new EyeOfHarmonyItem());
 	public static final RegistryObject<Item> HEART_OF_THE_TARDIS = REGISTRY.register("heart_of_the_tardis", () -> new HeartOfTheTardisItem());
 	public static final RegistryObject<Item> FLIGHT_CONTROLLER = REGISTRY.register("flight_controller", () -> new FlightControllerItem());
-	public static final RegistryObject<Item> NAVIGATION_ARRAY = REGISTRY.register("navigation_array", () -> new NavigationArrayItem());
 	public static final RegistryObject<Item> VORTEX_STABILISER = REGISTRY.register("vortex_stabiliser", () -> new VortexStabiliserItem());
 	public static final RegistryObject<Item> SECURITY_SYSTEM = REGISTRY.register("security_system", () -> new SecuritySystemItem());
-	public static final RegistryObject<Item> SUN_CORE = REGISTRY.register("sun_core", () -> new SunCoreItem());
 	public static final RegistryObject<Item> CONSOLE = REGISTRY.register("console", () -> new ConsoleItem());
+	public static final RegistryObject<Item> NAV_ARRAY = block(ProjectTardisModBlocks.NAV_ARRAY, ProjectTardisModTabs.TAB_PROJECT_TARDIS);
+	public static final RegistryObject<Item> SUN_CORE = block(ProjectTardisModBlocks.SUN_CORE, ProjectTardisModTabs.TAB_PROJECT_TARDIS);
 
 	// Start of user code block custom items
 	// End of user code block custom items

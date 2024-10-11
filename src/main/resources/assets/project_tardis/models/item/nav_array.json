@@ -1,5 +1,5 @@
 {
-  "parent": "project_tardis:block/sun_core",
+  "parent": "project_tardis:block/nav_array",
   "display": {
     "thirdperson": {
       "rotation": [
