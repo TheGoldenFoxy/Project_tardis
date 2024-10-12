@@ -10,7 +10,7 @@ import net.minecraft.block.Block;
 
 public class TungstenoreBlock extends Block {
 	public TungstenoreBlock() {
-		super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f));
+		super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 10f));
 	}
 
 	@Override

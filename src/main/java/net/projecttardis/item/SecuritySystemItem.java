@@ -8,6 +8,6 @@ import net.minecraft.item.Item;
 
 public class SecuritySystemItem extends Item {
 	public SecuritySystemItem() {
-		super(new Item.Properties().group(ProjectTardisModTabs.TAB_PROJECT_TARDIS).maxStackSize(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().group(ProjectTardisModTabs.TAB_PROJECT_TARDIS).maxStackSize(1).rarity(Rarity.EPIC));
 	}
 }

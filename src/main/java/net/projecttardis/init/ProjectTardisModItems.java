@@ -7,8 +7,6 @@ package net.projecttardis.init;
 import net.projecttardis.item.VortexStabiliserItem;
 import net.projecttardis.item.TungstenIngotItem;
 import net.projecttardis.item.TardisShellItem;
-import net.projecttardis.item.SteelingotItem;
-import net.projecttardis.item.SteelNuggetItem;
 import net.projecttardis.item.SecuritySystemItem;
 import net.projecttardis.item.HeartOfTheTardisItem;
 import net.projecttardis.item.FlightControllerItem;
@@ -27,10 +25,8 @@ import net.minecraft.block.Block;
 
 public class ProjectTardisModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ProjectTardisMod.MODID);
-	public static final RegistryObject<Item> TUNGSTENORE = block(ProjectTardisModBlocks.TUNGSTENORE, ItemGroup.BUILDING_BLOCKS);
+	public static final RegistryObject<Item> TUNGSTENORE = block(ProjectTardisModBlocks.TUNGSTENORE, ProjectTardisModTabs.TAB_PROJECT_TARDIS);
 	public static final RegistryObject<Item> TUNGSTEN_INGOT = REGISTRY.register("tungsten_ingot", () -> new TungstenIngotItem());
-	public static final RegistryObject<Item> STEELINGOT = REGISTRY.register("steelingot", () -> new SteelingotItem());
-	public static final RegistryObject<Item> STEEL_NUGGET = REGISTRY.register("steel_nugget", () -> new SteelNuggetItem());
 	public static final RegistryObject<Item> TARDIS_SHELL = REGISTRY.register("tardis_shell", () -> new TardisShellItem());
 	public static final RegistryObject<Item> EYE_OF_HARMONY = REGISTRY.register("eye_of_harmony", () -> new EyeOfHarmonyItem());
 	public static final RegistryObject<Item> HEART_OF_THE_TARDIS = REGISTRY.register("heart_of_the_tardis", () -> new HeartOfTheTardisItem());

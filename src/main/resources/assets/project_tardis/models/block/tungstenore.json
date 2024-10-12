@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "project_tardis:block/devblock",
-    "up": "project_tardis:block/devblock",
-    "north": "project_tardis:block/devblock",
-    "east": "project_tardis:block/devblock",
-    "south": "project_tardis:block/devblock",
-    "west": "project_tardis:block/devblock",
-    "particle": "project_tardis:block/devblock"
+    "down": "project_tardis:block/amethyst_ore",
+    "up": "project_tardis:block/amethyst_ore",
+    "north": "project_tardis:block/amethyst_ore",
+    "east": "project_tardis:block/amethyst_ore",
+    "south": "project_tardis:block/amethyst_ore",
+    "west": "project_tardis:block/amethyst_ore",
+    "particle": "project_tardis:block/amethyst_ore"
   }
 }
