@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Blocks.RED_SANDSTONE#2"
+        "value": "CUSTOM:TungstenIngot"
       },
       {
-        "value": "Blocks.LILY_OF_THE_VALLEY"
+        "value": "Blocks.REDSTONE_BLOCK"
       },
       {
-        "value": "Blocks.CAMPFIRE"
-      },
-      {
-        "value": "Blocks.COAL_BLOCK"
-      },
-      {
-        "value": "Blocks.PLANKS#4"
+        "value": "CUSTOM:TungstenIngot"
       },
       {
         "value": "Blocks.SMOOTH_STONE"
       },
       {
-        "value": "Blocks.DIORITE_WALL"
+        "value": "CUSTOM:SunCore"
       },
       {
-        "value": "Blocks.NETHER_GOLD_ORE"
+        "value": "Blocks.SMOOTH_STONE"
       },
       {
-        "value": "Blocks.QUARTZ_BLOCK#2"
+        "value": "CUSTOM:TungstenIngot"
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": "CUSTOM:TungstenIngot"
       }
     ],
     "recipeReturnStack": {

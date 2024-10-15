@@ -1,37 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "abc",
-    "def",
-    "ghi"
+    "aba",
+    "cdc",
+    "aba"
   ],
   "key": {
     "a": {
-      "item": "minecraft:cut_red_sandstone"
+      "item": "project_tardis:tungsten_ingot"
     },
     "b": {
-      "item": "minecraft:lily_of_the_valley"
+      "item": "minecraft:redstone_block"
     },
     "c": {
-      "item": "minecraft:campfire"
-    },
-    "d": {
-      "item": "minecraft:coal_block"
-    },
-    "e": {
-      "item": "minecraft:acacia_planks"
-    },
-    "f": {
       "item": "minecraft:smooth_stone"
     },
-    "g": {
-      "item": "minecraft:diorite_wall"
-    },
-    "h": {
-      "item": "minecraft:nether_gold_ore"
-    },
-    "i": {
-      "item": "minecraft:quartz_pillar"
+    "d": {
+      "item": "project_tardis:solar_core"
     }
   },
   "result": {
