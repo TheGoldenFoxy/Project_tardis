@@ -5,6 +5,8 @@ package net.projecttardis.init;
 
 import net.projecttardis.block.TungstenoreBlock;
 import net.projecttardis.block.SunCoreBlock;
+import net.projecttardis.block.SpaceTungstenOreBlock;
+import net.projecttardis.block.SpaceRockBlock;
 import net.projecttardis.block.NavArrayBlock;
 import net.projecttardis.ProjectTardisMod;
 
@@ -23,6 +25,8 @@ public class ProjectTardisModBlocks {
 	public static final RegistryObject<Block> TUNGSTENORE = REGISTRY.register("tungstenore", () -> new TungstenoreBlock());
 	public static final RegistryObject<Block> NAV_ARRAY = REGISTRY.register("nav_array", () -> new NavArrayBlock());
 	public static final RegistryObject<Block> SOLAR_CORE = REGISTRY.register("solar_core", () -> new SunCoreBlock());
+	public static final RegistryObject<Block> SPACE_ROCK = REGISTRY.register("space_rock", () -> new SpaceRockBlock());
+	public static final RegistryObject<Block> SPACE_TUNGSTEN_ORE = REGISTRY.register("space_tungsten_ore", () -> new SpaceTungstenOreBlock());
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

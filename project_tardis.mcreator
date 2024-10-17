@@ -365,11 +365,57 @@
         ]
       },
       "path": "~/Recipies"
+    },
+    {
+      "name": "SpaceRock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_rock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_tardis/loot_tables/blocks/space_rock.json",
+          "src/main/java/net/projecttardis/block/SpaceRockBlock.java",
+          "src/main/resources/assets/project_tardis/models/item/space_rock.json",
+          "src/main/resources/assets/project_tardis/models/block/space_rock.json",
+          "src/main/resources/assets/project_tardis/blockstates/space_rock.json"
+        ]
+      },
+      "path": "~/blocks"
+    },
+    {
+      "name": "SpaceTungstenOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_tungsten_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/project_tardis/loot_tables/blocks/space_tungsten_ore.json",
+          "src/main/resources/assets/project_tardis/blockstates/space_tungsten_ore.json",
+          "src/main/resources/assets/project_tardis/models/block/space_tungsten_ore.json",
+          "src/main/resources/assets/project_tardis/models/item/space_tungsten_ore.json",
+          "src/main/java/net/projecttardis/block/SpaceTungstenOreBlock.java"
+        ]
+      },
+      "path": "~/blocks"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "ITEMS:mod:tungsten_ore_items": [
+      "CUSTOM:Tungstenore",
+      "CUSTOM:SpaceTungstenOre"
+    ],
+    "ITEMS:forge:tungsten": [
+      "CUSTOM:TungstenIngot"
+    ],
+    "BLOCKS:mod:tungsten_ores": [
+      "CUSTOM:Tungstenore",
+      "CUSTOM:SpaceTungstenOre"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
@@ -381,10 +427,12 @@
       "item.project_tardis.vortex_stabiliser": "Vortex Stabliser",
       "itemGroup.tab_project_tardis": "Project Tardis",
       "item.project_tardis.flight_controller": "Flight Controller",
+      "block.project_tardis.space_tungsten_ore": "Space Tungsten Ore",
       "block.project_tardis.tungstenore": "Tungsten ore",
       "item.project_tardis.heart_of_the_tardis": "Heart of Tardis",
       "block.project_tardis.solar_core": "Sun Core",
-      "block.project_tardis.nav_array": "Navgation Array"
+      "block.project_tardis.nav_array": "Navgation Array",
+      "block.project_tardis.space_rock": "Space Rock"
     }
   },
   "foldersRoot": {
@@ -404,6 +452,10 @@
       },
       {
         "name": "Recipies",
+        "children": []
+      },
+      {
+        "name": "blocks",
         "children": []
       }
     ]

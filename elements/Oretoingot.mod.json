@@ -11,7 +11,7 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:Tungstenore"
+      "value": "TAG:mod:tungsten_ore_items"
     },
     "smeltingReturnStack": {
       "value": "CUSTOM:TungstenIngot"

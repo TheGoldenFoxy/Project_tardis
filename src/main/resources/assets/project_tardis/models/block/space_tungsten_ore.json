@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "project_tardis:block/asteroidtungstenore",
+    "up": "project_tardis:block/asteroidtungstenore",
+    "north": "project_tardis:block/asteroidtungstenore",
+    "east": "project_tardis:block/asteroidtungstenore",
+    "south": "project_tardis:block/asteroidtungstenore",
+    "west": "project_tardis:block/asteroidtungstenore",
+    "particle": "project_tardis:block/asteroidtungstenore"
+  }
+}

@@ -7,8 +7,10 @@
   "item.project_tardis.vortex_stabiliser": "Vortex Stabliser",
   "itemGroup.tab_project_tardis": "Project Tardis",
   "item.project_tardis.flight_controller": "Flight Controller",
+  "block.project_tardis.space_tungsten_ore": "Space Tungsten Ore",
   "block.project_tardis.tungstenore": "Tungsten ore",
   "item.project_tardis.heart_of_the_tardis": "Heart of Tardis",
   "block.project_tardis.solar_core": "Sun Core",
-  "block.project_tardis.nav_array": "Navgation Array"
+  "block.project_tardis.nav_array": "Navgation Array",
+  "block.project_tardis.space_rock": "Space Rock"
 }

@@ -36,6 +36,8 @@ public class ProjectTardisModItems {
 	public static final RegistryObject<Item> CONSOLE = REGISTRY.register("console", () -> new ConsoleItem());
 	public static final RegistryObject<Item> NAV_ARRAY = block(ProjectTardisModBlocks.NAV_ARRAY, ProjectTardisModTabs.TAB_PROJECT_TARDIS);
 	public static final RegistryObject<Item> SOLAR_CORE = block(ProjectTardisModBlocks.SOLAR_CORE, ProjectTardisModTabs.TAB_PROJECT_TARDIS);
+	public static final RegistryObject<Item> SPACE_ROCK = block(ProjectTardisModBlocks.SPACE_ROCK, null);
+	public static final RegistryObject<Item> SPACE_TUNGSTEN_ORE = block(ProjectTardisModBlocks.SPACE_TUNGSTEN_ORE, null);
 
 	// Start of user code block custom items
 	// End of user code block custom items
